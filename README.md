@@ -1,6 +1,6 @@
 # mgamadeus/ddd-common-political
 
-Countries, languages, locales, political regions, states, and localities for the [mgamadeus/ddd](https://github.com/mgamadeus/ddd) framework.
+Countries, languages, locales, political regions, states, and localities for the [mgamadeus/ddd](https://github.com/ddd-framework/ddd) framework.
 
 ## Installation
 
@@ -88,7 +88,7 @@ States and localities can be geocoded via the Argus API:
 - `ArgusState` — `POST:/common/geodata/geocodeState` (1-month cache)
 - `ArgusLocality` — `POST:/common/geodata/geocodeCity` (1-month cache)
 
-These require `ARGUS_API_ENDPOINT` to be configured (see [ddd-argus](https://github.com/mgamadeus/ddd-argus)).
+These require `ARGUS_API_ENDPOINT` to be configured (see [ddd-argus](https://github.com/ddd-framework/ddd-argus)).
 
 ## Overriding entities
 
